@@ -52,19 +52,11 @@
     display:flex;
     align-items:center;
     justify-content:center;
-    gap:10px;
     margin-bottom:22px;
-    flex-wrap:wrap;
   }
-  .org-badge{
-    width:40px; height:40px;
-    border-radius:50%;
-    border:1.5px dashed rgba(251,248,241,.35);
-    display:flex; align-items:center; justify-content:center;
-    font-size:10px; font-weight:700; color:rgba(251,248,241,.6);
-    letter-spacing:.02em;
-    text-align:center;
-    line-height:1.1;
+  .org-strip img{
+    max-width:100%;
+    height:auto;
   }
 
   .unit-name{
@@ -149,7 +141,11 @@
     text-align:center;
     padding:20px;
   }
-  .tray-photo img{ width:100%; height:100%; object-fit:cover; display:none; }
+  .tray-photo{ position:relative; }
+  .tray-photo img{ width:100%; height:100%; object-fit:cover; position:absolute; inset:0; display:none; }
+  .tray-photo.has-photo img{ display:block; }
+  .tray-photo.has-photo .tray-fallback{ display:none; }
+  .tray-fallback{ position:relative; z-index:1; }
 
   /* --- Item list (receipt style) --- */
   .card{
@@ -287,10 +283,7 @@
 <div class="page">
 
   <div class="org-strip">
-    <div class="org-badge">BGN</div>
-    <div class="org-badge">HALAL</div>
-    <div class="org-badge">SLHS</div>
-    <div class="org-badge">SPPG</div>
+    <img src="logo-header.png" alt="Badan Gizi Nasional, Halal Indonesia, SLHS, SPPG Ciparay Dua">
   </div>
   <p class="unit-name" id="unitName">SPPG Ciparay Dua — Majalengka</p>
 
@@ -306,7 +299,12 @@
   </div>
 
   <div class="tray-wrap">
-    <div class="tray-photo" id="trayPhoto">Foto nampan hari ini<br>(ganti dengan gambar asli di Google Sites)</div>
+    <div class="tray-photo" id="trayPhoto">
+      <img id="trayImg" src="" alt="Foto menu hari ini"
+           onload="document.getElementById('trayPhoto').classList.add('has-photo')"
+           onerror="document.getElementById('trayPhoto').classList.remove('has-photo')">
+      <span class="tray-fallback">Foto belum diupload<br>(upload foto-porsi-besar.jpg / foto-porsi-kecil.jpg)</span>
+    </div>
   </div>
 
   <div class="card">
@@ -340,6 +338,7 @@
     menuTitleHTML: "Nasi Putih, <span>Semur Telor</span>",
     portions: {
       besar: {
+        photo: "foto-porsi-besar.jpg",
         items: [
           {name:"Nasi Putih", price:"Rp.950"},
           {name:"Semur Telor", price:"Rp.2.950"},
@@ -350,6 +349,7 @@
         nutrition:{karbohidrat:"69.82 g", protein:"19.19 g", lemak:"17.6 g", serat:"2.12 g", energi:"515.9 kkal"}
       },
       kecil: {
+        photo: "foto-porsi-kecil.jpg",
         items: [
           {name:"Nasi Putih", price:"Rp.950"},
           {name:"Semur Telor", price:"Rp.2.950"},
@@ -380,6 +380,7 @@
 
   function renderPortion(key){
     const p = data.portions[key];
+    document.getElementById('trayImg').src = p.photo + '?v=' + data.date.replace(/\s/g,'');
     document.getElementById('itemList').innerHTML = p.items.map(it => `
       <div class="item-row">
         <span class="item-name">${it.name}</span>
