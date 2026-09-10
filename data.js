@@ -9,10 +9,10 @@ const data = {
   date: "Senin, 14 September 2026",
   menuTitleHTML: "<span>Ayam Kemangi</span>",
   items: [
-    {name:"Nasi Putih", price:"Rp.950"},
-    {name:"Ayam Kemangi", price:"Rp.4.430"},
+    {name:"Nasi Putih", price:"Rp.950.644"},
+    {name:"Ayam Kemangi", price:"Rp.44.303.342"},
     {name:"Tahu Goreng", price:"Rp.775"},
-    {name:"Tumis Labu Siam Wortel", price:"Rp.1.550"},
+    {name:"Tumis Labu Siam Wortel", price:"Rp.15.501.153"},
     {name:"Pisang Cavendish", price:"Rp.2.295"},
   ],
   portions: {
