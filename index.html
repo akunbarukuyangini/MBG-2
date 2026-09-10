@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Menu MBG Hari Ini — SPPG Ciparay Dua</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@500;600;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --navy-950:#0A1240;
+    --navy-800:#111C57;
+    --navy-700:#182566;
+    --green-500:#7CB342;
+    --green-400:#93C654;
+    --green-200:#D9EEC0;
+    --gold-400:#F0C36D;
+    --cream-50:#FBF8F1;
+    --ink-900:#12142B;
+    --ink-600:#4B4F6B;
+    --line:#293476;
+  }
+  *{box-sizing:border-box;}
+  body{
+    margin:0;
+    background:var(--navy-950);
+    font-family:'Inter',sans-serif;
+    color:var(--cream-50);
+    -webkit-font-smoothing:antialiased;
+  }
+  .page{
+    max-width:480px;
+    margin:0 auto;
+    padding:20px 18px 40px;
+    position:relative;
+    overflow:hidden;
+  }
+  /* decorative arc, echoes the wave motif from the flyer without copying it literally */
+  .page::before{
+    content:"";
+    position:absolute;
+    top:-120px; right:-140px;
+    width:300px; height:300px;
+    border-radius:50%;
+    background:radial-gradient(circle at 30% 30%, var(--green-400), transparent 70%);
+    opacity:.18;
+    pointer-events:none;
+  }
+
+  /* --- Institutional strip: swap these placeholder circles for your real logo images in Google Sites --- */
+  .org-strip{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    margin-bottom:22px;
+  }
+  .org-strip img{
+    max-width:100%;
+    height:auto;
+  }
+
+  .unit-name{
+    text-align:center;
+    font-size:12px;
+    color:var(--green-300, #AED581);
+    font-weight:600;
+    letter-spacing:.03em;
+    margin-bottom:4px;
+  }
+
+  /* --- Hero --- */
+  .hero{ text-align:center; margin-bottom:18px; }
+  .hero .eyebrow{
+    font-family:'Inter',sans-serif;
+    font-size:14px;
+    color:rgba(251,248,241,.65);
+    margin:0 0 2px;
+  }
+  .hero h1{
+    font-family:'Baloo 2', sans-serif;
+    font-size:34px;
+    line-height:1.15;
+    margin:0 0 14px;
+    color:var(--cream-50);
+    font-weight:700;
+  }
+  .hero h1 span{ color:var(--green-400); }
+  .date-pill{
+    display:inline-block;
+    background:linear-gradient(90deg, var(--gold-400), #F6DDA0);
+    color:var(--navy-950);
+    font-weight:700;
+    font-size:13px;
+    padding:7px 18px;
+    border-radius:999px;
+  }
+
+  /* --- Portion toggle --- */
+  .toggle{
+    display:flex;
+    background:var(--navy-800);
+    border-radius:14px;
+    padding:4px;
+    margin:22px 0 16px;
+    border:1px solid var(--line);
+  }
+  .toggle button{
+    flex:1;
+    border:none;
+    background:transparent;
+    color:rgba(251,248,241,.65);
+    font-family:'Baloo 2',sans-serif;
+    font-weight:600;
+    font-size:15px;
+    padding:10px 0;
+    border-radius:10px;
+    cursor:pointer;
+    transition:background .2s ease, color .2s ease;
+  }
+  .toggle button.active{
+    background:var(--green-500);
+    color:var(--navy-950);
+  }
+
+  /* --- Tray photo --- */
+  .tray-wrap{
+    border-radius:18px;
+    overflow:hidden;
+    border:2px solid var(--green-500);
+    background:var(--navy-800);
+    margin-bottom:16px;
+  }
+  .tray-photo{
+    aspect-ratio:16/11;
+    background:
+      repeating-linear-gradient(45deg, rgba(251,248,241,.04) 0 10px, transparent 10px 20px),
+      var(--navy-700);
+    display:flex; align-items:center; justify-content:center;
+    color:rgba(251,248,241,.4);
+    font-size:13px;
+    text-align:center;
+    padding:20px;
+  }
+  .tray-photo{ position:relative; }
+  .tray-photo img{ width:100%; height:100%; object-fit:cover; position:absolute; inset:0; display:none; }
+  .tray-photo.has-photo img{ display:block; }
+  .tray-photo.has-photo .tray-fallback{ display:none; }
+  .tray-fallback{ position:relative; z-index:1; }
+
+  /* --- Item list (receipt style) --- */
+  .card{
+    background:var(--cream-50);
+    color:var(--ink-900);
+    border-radius:18px;
+    padding:18px 18px 6px;
+    margin-bottom:16px;
+  }
+  .card h2{
+    font-family:'Baloo 2',sans-serif;
+    font-size:17px;
+    margin:0 0 10px;
+    color:var(--navy-950);
+  }
+  .item-row{
+    display:flex;
+    align-items:baseline;
+    gap:8px;
+    padding:9px 0;
+    border-bottom:1px dashed rgba(18,20,43,.15);
+    font-size:14px;
+  }
+  .item-row:last-child{ border-bottom:none; }
+  .item-name{ white-space:nowrap; }
+  .item-leader{
+    flex:1;
+    border-bottom:1px dotted rgba(18,20,43,.35);
+    transform:translateY(-3px);
+  }
+  .item-price{
+    white-space:nowrap;
+    font-weight:700;
+    color:var(--navy-800);
+  }
+
+  /* --- Nutrition table --- */
+  .nutri-card{
+    background:var(--navy-800);
+    border-radius:18px;
+    padding:18px;
+    border:1px solid var(--line);
+    margin-bottom:16px;
+  }
+  .nutri-card h2{
+    font-family:'Baloo 2',sans-serif;
+    font-size:17px;
+    margin:0 0 4px;
+    color:var(--cream-50);
+  }
+  .nutri-sub{ font-size:12px; color:rgba(251,248,241,.55); margin:0 0 14px; }
+  .nutri-grid{
+    display:grid;
+    grid-template-columns:repeat(2,1fr);
+    gap:10px;
+  }
+  .nutri-item{
+    background:var(--navy-950);
+    border-radius:12px;
+    padding:12px 14px;
+  }
+  .nutri-item .val{
+    font-family:'Baloo 2',sans-serif;
+    font-size:20px;
+    font-weight:700;
+    color:var(--green-400);
+    display:block;
+  }
+  .nutri-item .label{
+    font-size:12px;
+    color:rgba(251,248,241,.6);
+  }
+  .nutri-energi{
+    grid-column:1/-1;
+    background:var(--green-500);
+    border-radius:12px;
+    padding:14px;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+  }
+  .nutri-energi .val{ color:var(--navy-950); font-size:24px; }
+  .nutri-energi .label{ color:rgba(10,18,64,.75); font-weight:600; }
+
+  /* --- Recipients footer --- */
+  .footer-card{
+    background:transparent;
+    border-top:1px solid var(--line);
+    padding-top:18px;
+    margin-top:6px;
+    text-align:center;
+  }
+  .footer-card .total{
+    font-family:'Baloo 2',sans-serif;
+    font-size:26px;
+    font-weight:700;
+    color:var(--gold-400);
+    margin:0 0 4px;
+  }
+  .footer-card .total-label{
+    font-size:12px;
+    color:rgba(251,248,241,.6);
+    margin:0 0 14px;
+  }
+  details{
+    text-align:left;
+    background:var(--navy-800);
+    border-radius:12px;
+    padding:12px 16px;
+    border:1px solid var(--line);
+  }
+  summary{
+    cursor:pointer;
+    font-weight:600;
+    font-size:13px;
+    color:var(--cream-50);
+  }
+  .recipient-list{
+    margin:10px 0 0;
+    padding:0;
+    list-style:none;
+    font-size:13px;
+    color:rgba(251,248,241,.75);
+    line-height:1.9;
+    columns:1;
+  }
+  .fineprint{
+    margin-top:16px;
+    font-size:11px;
+    color:rgba(251,248,241,.4);
+  }
+</style>
+</head>
+<body>
+<div class="page">
+
+  <div class="org-strip">
+    <img src="logo-header.png" alt="Badan Gizi Nasional, Halal Indonesia, SLHS, SPPG Ciparay Dua">
+  </div>
+  <p class="unit-name" id="unitName">SPPG Ciparay Dua — Majalengka</p>
+
+  <div class="hero">
+    <p class="eyebrow">Menu MBG hari ini</p>
+    <h1 id="menuTitle">Nasi Putih, <span>Semur Telor</span></h1>
+    <span class="date-pill" id="menuDate">Senin, 7 September 2026</span>
+  </div>
+
+  <div class="toggle">
+    <button class="active" data-portion="besar" onclick="showPortion('besar')">Porsi Besar</button>
+    <button data-portion="kecil" onclick="showPortion('kecil')">Porsi Kecil</button>
+  </div>
+
+  <div class="tray-wrap">
+    <div class="tray-photo" id="trayPhoto">
+      <img id="trayImg" src="" alt="Foto menu hari ini"
+           onload="document.getElementById('trayPhoto').classList.add('has-photo')"
+           onerror="document.getElementById('trayPhoto').classList.remove('has-photo')">
+      <span class="tray-fallback">Foto belum diupload<br>(upload foto-porsi-besar.jpg / foto-porsi-kecil.jpg)</span>
+    </div>
+  </div>
+
+  <div class="card">
+    <h2>Rincian menu</h2>
+    <div id="itemList"></div>
+  </div>
+
+  <div class="nutri-card">
+    <h2>Kandungan gizi</h2>
+    <p class="nutri-sub" id="portionLabel">Porsi Besar</p>
+    <div class="nutri-grid" id="nutriGrid"></div>
+  </div>
+
+  <div class="footer-card">
+    <p class="total" id="totalPorsi">3.007 Porsi</p>
+    <p class="total-label">Total penerima manfaat hari ini</p>
+    <details>
+      <summary>Lihat daftar sekolah / lembaga penerima</summary>
+      <ul class="recipient-list" id="recipientList"></ul>
+    </details>
+    <p class="fineprint">Diperbarui otomatis setiap hari oleh dapur SPPG Ciparay Dua.</p>
+  </div>
+
+</div>
+
+<script src="data.js"></script>
+<script>
+  // ---- Data diisi lewat data.js. File ini cukup disetup sekali. ----
+  // data diambil dari data.js (lihat tag <script src="data.js"> di atas)
+
+  document.getElementById('unitName').textContent = data.unit;
+  document.getElementById('menuDate').textContent = data.date;
+  document.getElementById('menuTitle').innerHTML = data.menuTitleHTML;
+  document.getElementById('totalPorsi').textContent = data.totalPorsi;
+  document.getElementById('recipientList').innerHTML =
+    data.recipients.map(r => `<li>${r}</li>`).join('');
+
+  function renderPortion(key){
+    const p = data.portions[key];
+    document.getElementById('trayImg').src = p.photo + '?v=' + data.date.replace(/\s/g,'');
+    document.getElementById('itemList').innerHTML = data.items.map(it => `
+      <div class="item-row">
+        <span class="item-name">${it.name}</span>
+        <span class="item-leader"></span>
+        <span class="item-price">${it.price}</span>
+      </div>`).join('');
+
+    const n = p.nutrition;
+    document.getElementById('nutriGrid').innerHTML = `
+      <div class="nutri-item"><span class="val">${n.karbohidrat}</span><span class="label">Karbohidrat</span></div>
+      <div class="nutri-item"><span class="val">${n.protein}</span><span class="label">Protein</span></div>
+      <div class="nutri-item"><span class="val">${n.lemak}</span><span class="label">Lemak</span></div>
+      <div class="nutri-item"><span class="val">${n.serat}</span><span class="label">Serat</span></div>
+      <div class="nutri-item nutri-energi"><span class="val">${n.energi}</span><span class="label">Energi</span></div>
+    `;
+    document.getElementById('portionLabel').textContent =
+      key === 'besar' ? 'Porsi Besar' : 'Porsi Kecil';
+  }
+
+  function showPortion(key){
+    document.querySelectorAll('.toggle button').forEach(b=>{
+      b.classList.toggle('active', b.dataset.portion === key);
+    });
+    renderPortion(key);
+  }
+
+  renderPortion('besar');
+</script>
+</body>
+</html>
