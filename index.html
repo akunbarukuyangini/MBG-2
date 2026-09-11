@@ -330,7 +330,9 @@
 
 </div>
 
-<script src="data.js"></script>
+<script>
+  document.write('<script src="data.js?v=' + Date.now() + '"><\/script>');
+</script>
 <script>
   // ---- Data diisi lewat data.js. File ini cukup disetup sekali. ----
   // data diambil dari data.js (lihat tag <script src="data.js"> di atas)
@@ -345,7 +347,7 @@
   function renderPortion(key){
     const p = data.portions[key];
     document.getElementById('trayImg').src = p.photo + '?v=' + data.date.replace(/\s/g,'');
-    document.getElementById('itemList').innerHTML = data.items.map(it => `
+    document.getElementById('itemList').innerHTML = p.items.map(it => `
       <div class="item-row">
         <span class="item-name">${it.name}</span>
         <span class="item-leader"></span>
