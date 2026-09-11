@@ -6,23 +6,30 @@
 // ============================================================
 const data = {
   unit: "SPPG Ciparay Dua — Majalengka",
-  date: "Senin, 14 September 2026",
-  menuTitleHTML: "<span>Ayam Kemangi</span>",
-  items: [
-    {name:"Nasi Putih", price:"Rp.950.644"},
-    {name:"Ayam Kemangi", price:"Rp.44.303.342"},
-    {name:"Tahu Goreng", price:"Rp.775"},
-    {name:"Tumis Labu Siam Wortel", price:"Rp.15.501.153"},
-    {name:"Pisang Cavendish", price:"Rp.2.295"},
-  ],
+  date: "Jumat, 11 September 2026",
+  menuTitleHTML: "<span>Ayam Teriyaki</span>",
   portions: {
     besar: {
       photo: "foto-porsi-besar.jpg",
-      nutrition:{karbohidrat:"80.14 g", protein:"21.62 g", lemak:"25.43 g", serat:"4.17 g", energi:"635.5 kkal"}
+      items: [
+        {name:"Nasi Putih", price:"Rp.950"},
+        {name:"Ayam Teriyaki", price:"Rp.4.430"},
+        {name:"Tahu Crispy", price:"Rp.755"},
+        {name:"Capcay", price:"Rp.1.550"},
+        {name:"Klengkeng", price:"Rp.2.295"},
+      ],
+      nutrition:{karbohidrat:"73.37 g", protein:"23.42 g", lemak:"29.88 g", serat:"1.78 g", energi:"654.9 kkal"}
     },
     kecil: {
       photo: "foto-porsi-kecil.jpg",
-      nutrition:{karbohidrat:"59.82 g", protein:"16.63 g", lemak:"21.55 g", serat:"3.75 g", energi:"497.2 kkal"}
+      items: [
+        {name:"Nasi Putih", price:"Rp.644"},
+        {name:"Ayam Teriyaki", price:"Rp.3.343"},
+        {name:"Tahu Crispy", price:"Rp.755"},
+        {name:"Capcay", price:"Rp.1.153"},
+        {name:"Klengkeng", price:"Rp.2.295"},
+      ],
+      nutrition:{karbohidrat:"50.59 g", protein:"17.38 g", lemak:"21.57 g", serat:"1.33 g", energi:"463.6 kkal"}
     }
   },
   totalPorsi: "3.007 Porsi",
