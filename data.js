@@ -6,33 +6,33 @@
 // ============================================================
 const data = {
   unit: "SPPG Ciparay Dua — Majalengka",
-  date: "Senin, 21 September 2026",
-  menuTitleHTML: "<span>Ayam Kecap</span>",
+  date: "Selasa, 22 September 2026",
+  menuTitleHTML: "<span>Bola Ayam Keju</span>",
   portions: {
     besar: {
       photo: "foto-porsi-besar.jpg",
       items: [
         {name:"Nasi Putih", price:"Rp.950"},
-        {name:"Ayam Kecap", price:"Rp.4.225"},
-        {name:"Perkedel Tahu", price:"Rp.950"},
-        {name:"Tumis Wortel Sawi Putih", price:"Rp.1.250"},
-        {name:"Jeruk", price:"Rp.2.400"},
+        {name:"Bola Ayam Keju", price:"Rp.3.120"},
+        {name:"Tahu Pong", price:"Rp.820"},
+        {name:"Tumis Pakcoy Jagung Pipil", price:"Rp.1.695"},
+        {name:"Pisang Cavendish", price:"Rp.2.350"},
       ],
-      nutrition:{karbohidrat:"74.21 g", protein:"22.25 g", lemak:"22.94 g", serat:"1.91 g", energi:"590.3 kkal"}
+      nutrition:{karbohidrat:"91.36 g", protein:"17.41 g", lemak:"19.88 g", serat:"2.35 g", energi:"614.3 kkal"}
     },
     kecil: {
       photo: "foto-porsi-kecil.jpg",
       items: [
         {name:"Nasi Putih", price:"Rp.950"},
-        {name:"Ayam Kecap", price:"Rp.4.225"},
-        {name:"Perkedel Tahu", price:"Rp.950"},
-        {name:"Tumis Wortel Sawi Putih", price:"Rp.900"},
-        {name:"Jeruk", price:"Rp.2.400"},
+        {name:"Bola Ayam Keju", price:"Rp.2.850"},
+        {name:"Tahu Pong", price:"Rp.820"},
+        {name:"Tumis Pakcoy Jagung Pipil", price:"Rp.1.215"},
+        {name:"Pisang Cavendish", price:"Rp.2.350"},
       ],
-      nutrition:{karbohidrat:"52.12 g", protein:"19.35 g", lemak:"22.17 g", serat:"1.63 g", energi:"481.8 kkal"}
+      nutrition:{karbohidrat:"67.21 g", protein:"14.57 g", lemak:"18.27 g", serat:"1.93 g", energi:"489.6 kkal"}
     }
   },
-  totalPorsi: "2.992 Porsi",
+  totalPorsi: "3.000 Porsi",
   recipients: [
       "TPQ Al-Karim",
       "RA Sabilul Chalim",
