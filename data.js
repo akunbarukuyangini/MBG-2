@@ -6,33 +6,33 @@
 // ============================================================
 const data = {
   unit: "SPPG Ciparay Dua — Majalengka",
-  date: "Selasa, 22 September 2026",
-  menuTitleHTML: "<span>Bola Ayam Keju</span>",
+  date: "Kamis, 08 Oktober 2026",
+  menuTitleHTML: "<span>Telur Bumbu Kuning</span>",
   portions: {
     besar: {
       photo: "foto-porsi-besar.jpg",
       items: [
         {name:"Nasi Putih", price:"Rp.950"},
-        {name:"Bola Ayam Keju", price:"Rp.3.120"},
-        {name:"Tahu Pong", price:"Rp.820"},
-        {name:"Tumis Pakcoy Jagung Pipil", price:"Rp.1.695"},
-        {name:"Pisang Cavendish", price:"Rp.2.350"},
+        {name:"Telur Bumbu Kuning", price:"Rp.2.880"},
+        {name:"Tempe Mendoan", price:"Rp.990"},
+        {name:"Tumis Sawi Wortel", price:"Rp.1.345"},
+        {name:"Apel", price:"Rp.3.300"},
       ],
-      nutrition:{karbohidrat:"91.36 g", protein:"17.41 g", lemak:"19.88 g", serat:"2.35 g", energi:"614.3 kkal"}
+      nutrition:{karbohidrat:"86.97 g", protein:"18.85 g", lemak:"16.9 g", serat:"86.97 g", energi:"573.9 kkal"}
     },
     kecil: {
       photo: "foto-porsi-kecil.jpg",
       items: [
-        {name:"Nasi Putih", price:"Rp.950"},
-        {name:"Bola Ayam Keju", price:"Rp.2.850"},
-        {name:"Tahu Pong", price:"Rp.820"},
-        {name:"Tumis Pakcoy Jagung Pipil", price:"Rp.1.215"},
-        {name:"Pisang Cavendish", price:"Rp.2.350"},
+        {name:"Nasi Putih", price:"Rp.644"},
+        {name:"Telur Bumbu Kuning", price:"Rp.2.880"},
+        {name:"Tempe Mendoan", price:"Rp.990"},
+        {name:"Tumis Sawi Wortel", price:"Rp.925"},
+        {name:"Apel", price:"Rp.3.300"},
       ],
-      nutrition:{karbohidrat:"67.21 g", protein:"14.57 g", lemak:"18.27 g", serat:"1.93 g", energi:"489.6 kkal"}
+      nutrition:{karbohidrat:"54.34 g", protein:"16.59 g", lemak:"16.12 g", serat:"3.19 g", energi:"465.2 kkal"}
     }
   },
-  totalPorsi: "3.000 Porsi",
+  totalPorsi: "3.004 Porsi",
   recipients: [
       "TPQ Al-Karim",
       "RA Sabilul Chalim",
