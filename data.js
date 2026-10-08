@@ -6,7 +6,7 @@
 // ============================================================
 const data = {
   unit: "SPPG Ciparay Dua — Majalengka",
-  date: "Sabtu, 9 September 2026",
+  date: "Jumat, 9 September 2026",
   menuTitleHTML: "<span>Chiken Karage</span>",
   portions: {
     besar: {
