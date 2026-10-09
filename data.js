@@ -16,7 +16,7 @@ const data = {
         {name:"Chiken Karage", price:"Rp.4.125"},
         {name:"Tahu Teriyaki", price:"Rp.910"},
         {name:"Mix vegetable", price:"Rp.1.350"},
-        {name:"Pisang Cavendish", price:"Rp.2.300"},
+        {name:"Anggur", price:"Rp.3.650"},
       ],
       nutrition:{karbohidrat:"92.56 g", protein:"25.22 g", lemak:"27.88 g", serat:"2.90 g", energi:"717.8 kkal"}
     },
@@ -27,7 +27,7 @@ const data = {
         {name:"Chiken Karage", price:"Rp.3.565"},
         {name:"Tahu Teriyaki", price:"Rp.910"},
         {name:"Mix vegetable", price:"Rp.980"},
-        {name:"Pisang Cavendish", price:"Rp.2.300"},
+        {name:"Anggur", price:"Rp.2.950"},
       ],
       nutrition:{karbohidrat:"66.19 g", protein:"18.51 g", lemak:"22.22 g", serat:"2.31 g", energi:"533.9 kkal"}
     }
