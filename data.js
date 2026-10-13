@@ -6,30 +6,30 @@
 // ============================================================
 const data = {
   unit: "SPPG Ciparay Dua — Majalengka",
-  date: "Senin, 12 Oktober 2026",
-  menuTitleHTML: "<span>Telur Balado & Kecap</span>",
+  date: "Selasa, 13 Oktober 2026",
+  menuTitleHTML: "<span>Ayam Goreng Kremes</span>",
   portions: {
     besar: {
       photo: "foto-porsi-besar.jpg",
       items: [
         {name:"Nasi Putih", price:"Rp.950"},
-        {name:"Telur Balado", price:"Rp.2.995"},
-        {name:"Mendoan", price:"Rp.930"},
-        {name:"Tumis buncis", price:"Rp.1.325"},
-        {name:"Apel", price:"Rp.3.200"},
+        {name:"Ayam Goreng Kremes", price:"Rp.4.410"},
+        {name:"Tahu Bumbu Kuning", price:"Rp.880"},
+        {name:"Tumis Sawi Jagung", price:"Rp.1.425"},
+        {name:"Jeruk", price:"Rp.2.400"},
       ],
-      nutrition:{karbohidrat:"87.73 g", protein:"18.74 g", lemak:"16.77 g", serat:"3.96 g", energi:"574.2 kkal"}
+      nutrition:{karbohidrat:"75.6 g", protein:"22.42 g", lemak:"28.01 g", serat:"2.14 g", energi:"642.4 kkal"}
     },
     kecil: {
       photo: "foto-porsi-kecil.jpg",
       items: [
         {name:"Nasi Putih", price:"Rp.644"},
-        {name:"Telur Balado", price:"Rp.2.880"},
-        {name:"Mendoan", price:"Rp.930"},
-        {name:"Tumis buncis", price:"Rp.940"},
-        {name:"Apel", price:"Rp.3.200"},
+        {name:"Ayam Goreng Kremes", price:"Rp.3.950"},
+        {name:"Tahu Bumbu Kuning", price:"Rp.880"},
+        {name:"Tumis Sawi Jagung", price:"Rp.1.235"},
+        {name:"Jeruk", price:"Rp.2.400"},
       ],
-      nutrition:{karbohidrat:"64.81 g", protein:"16.41 g", lemak:"15.97 g", serat:"3.32 g", energi:"464.3 kkal"}
+      nutrition:{karbohidrat:"53.92 g", protein:"18.02 g", lemak:"25.21 g", serat:"1.84 g", energi:"511.0 kkal"}
     }
   },
   totalPorsi: "2.998 Porsi",
