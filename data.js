@@ -6,30 +6,30 @@
 // ============================================================
 const data = {
   unit: "SPPG Ciparay Dua — Majalengka",
-  date: "Selasa, 13 Oktober 2026",
-  menuTitleHTML: "<span>Ayam Goreng Kremes</span>",
+  date: "Rabu, 14 Oktober 2026",
+  menuTitleHTML: "<span>Chiken Katsu</span>",
   portions: {
     besar: {
       photo: "foto-porsi-besar.jpg",
       items: [
         {name:"Nasi Putih", price:"Rp.950"},
-        {name:"Ayam Goreng Kremes", price:"Rp.4.410"},
-        {name:"Tahu Bumbu Kuning", price:"Rp.880"},
-        {name:"Tumis Sawi Jagung", price:"Rp.1.425"},
-        {name:"Jeruk", price:"Rp.2.400"},
+        {name:"Chiken Katsu", price:"Rp.4.120"},
+        {name:"Tahu Goreng", price:"Rp.800"},
+        {name:"Kari Kentang Wortel", price:"Rp.1.640"},
+        {name:"Pisang Cavendish", price:"Rp.2.500"},
       ],
-      nutrition:{karbohidrat:"75.6 g", protein:"22.42 g", lemak:"28.01 g", serat:"2.14 g", energi:"642.4 kkal"}
+      nutrition:{karbohidrat:"89.87 g", protein:"20.1 g", lemak:"25.05 g", serat:"2.57 g", energi:"663.4 kkal"}
     },
     kecil: {
       photo: "foto-porsi-kecil.jpg",
       items: [
         {name:"Nasi Putih", price:"Rp.644"},
-        {name:"Ayam Goreng Kremes", price:"Rp.3.950"},
-        {name:"Tahu Bumbu Kuning", price:"Rp.880"},
-        {name:"Tumis Sawi Jagung", price:"Rp.1.235"},
-        {name:"Jeruk", price:"Rp.2.400"},
+        {name:"Chiken Katsu", price:"Rp.3.850"},
+        {name:"Tahu Goreng", price:"Rp.800"},
+        {name:"Kari Kentang Wortel", price:"Rp.1.320"},
+        {name:"Pisang Cavendish", price:"Rp.2.500"},
       ],
-      nutrition:{karbohidrat:"53.92 g", protein:"18.02 g", lemak:"25.21 g", serat:"1.84 g", energi:"511.0 kkal"}
+      nutrition:{karbohidrat:"66.7 g", protein:"16.53 g", lemak:"22.36 g", serat:"2.20 g", energi:"529.9 kkal"}
     }
   },
   totalPorsi: "2.998 Porsi",
