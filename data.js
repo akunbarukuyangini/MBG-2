@@ -6,30 +6,30 @@
 // ============================================================
 const data = {
   unit: "SPPG Ciparay Dua — Majalengka",
-  date: "Rabu, 14 Oktober 2026",
-  menuTitleHTML: "<span>Chiken Katsu</span>",
+  date: "Kamis, 15 Oktober 2026",
+  menuTitleHTML: "<span>Bola Ayam Saus Tiram</span>",
   portions: {
     besar: {
       photo: "foto-porsi-besar.jpg",
       items: [
         {name:"Nasi Putih", price:"Rp.950"},
-        {name:"Chiken Katsu", price:"Rp.4.120"},
-        {name:"Tahu Goreng", price:"Rp.800"},
-        {name:"Kari Kentang Wortel", price:"Rp.1.640"},
-        {name:"Pisang Cavendish", price:"Rp.2.500"},
+        {name:"Bola Ayam Saus Tiram", price:"Rp.3.995"},
+        {name:"Tahu Sumedang", price:"Rp.900"},
+        {name:"Tumis Buncis Jagung Pipil", price:"Rp.1.320"},
+        {name:"Klengkeng", price:"Rp.3.540"},
       ],
-      nutrition:{karbohidrat:"89.87 g", protein:"20.1 g", lemak:"25.05 g", serat:"2.57 g", energi:"663.4 kkal"}
+      nutrition:{karbohidrat:"81.83 g", protein:"18.07 g", lemak:"19.24 g", serat:"1.95 g", energi:"569.3 kkal"}
     },
     kecil: {
       photo: "foto-porsi-kecil.jpg",
       items: [
         {name:"Nasi Putih", price:"Rp.644"},
-        {name:"Chiken Katsu", price:"Rp.3.850"},
-        {name:"Tahu Goreng", price:"Rp.800"},
-        {name:"Kari Kentang Wortel", price:"Rp.1.320"},
-        {name:"Pisang Cavendish", price:"Rp.2.500"},
+        {name:"Bola Ayam Saus Tiram", price:"Rp.3.150"},
+        {name:"Tahu Sumedang", price:"Rp.900"},
+        {name:"Tumis Buncis Jagung Pipil", price:"Rp.990"},
+        {name:"Klengkeng", price:"Rp.2.950"},
       ],
-      nutrition:{karbohidrat:"66.7 g", protein:"16.53 g", lemak:"22.36 g", serat:"2.20 g", energi:"529.9 kkal"}
+      nutrition:{karbohidrat:"56.82 g", protein:"14.98 g", lemak:"15.59 g", serat:"1.56 g", energi:"422.8 kkal"}
     }
   },
   totalPorsi: "2.998 Porsi",
