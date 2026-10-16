@@ -16,7 +16,7 @@ const data = {
         {name:"Telur Ceplok Asam Manis", price:"Rp.2.880"},
         {name:"Tempe Goreng", price:"Rp.810"},
         {name:"Tumis Kol Wortel", price:"Rp.1.320"},
-        {name:"Anggur", price:"Rp.3.350"},
+        {name:"Apel Hijau", price:"Rp.3.350"},
       ],
       nutrition:{karbohidrat:"80.76 g", protein:"19.76 g", lemak:"17.44 g", serat:"3.7 g", energi:"557.8 kkal"}
     },
@@ -27,7 +27,7 @@ const data = {
         {name:"Telur Ceplok Asam Manis", price:"Rp.2.880"},
         {name:"Tempe Goreng", price:"Rp.810"},
         {name:"Tumis Kol Wortel", price:"Rp.990"},
-        {name:"Anggur", price:"Rp.2.950"},
+        {name:"Apel Hijau", price:"Rp.3.350"},
       ],
       nutrition:{karbohidrat:"60.18 g", protein:"17.52 g", lemak:"16.71 g", serat:"3.46 g", energi:"456.9 kkal"}
     }
