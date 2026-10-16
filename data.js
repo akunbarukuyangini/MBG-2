@@ -6,7 +6,7 @@
 // ============================================================
 const data = {
   unit: "SPPG Ciparay Dua — Majalengka",
-  date: "Jumat, 16 September 2026",
+  date: "Jumat, 16 Oktober 2026",
   menuTitleHTML: "<span>Telur Ceplok Asam Manis</span>",
   portions: {
     besar: {
