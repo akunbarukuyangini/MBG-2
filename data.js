@@ -6,30 +6,30 @@
 // ============================================================
 const data = {
   unit: "SPPG Ciparay Dua — Majalengka",
-  date: "Jumat, 16 Oktober 2026",
-  menuTitleHTML: "<span>Telur Ceplok Asam Manis</span>",
+  date: "Senin, 19 Oktober 2026",
+  menuTitleHTML: "<span>Ayam Bakar Madu</span>",
   portions: {
     besar: {
       photo: "foto-porsi-besar.jpg",
       items: [
         {name:"Nasi Putih", price:"Rp.950"},
-        {name:"Telur Ceplok Asam Manis", price:"Rp.2.880"},
-        {name:"Tempe Goreng", price:"Rp.810"},
-        {name:"Tumis Kol Wortel", price:"Rp.1.320"},
-        {name:"Apel Hijau", price:"Rp.3.350"},
+        {name:"Ayam Bakar Madu", price:"Rp.4.150"},
+        {name:"Tahu Crispy", price:"Rp.920"},
+        {name:"Tumis Sawi Jagung Pipil", price:"Rp.1.355"},
+        {name:"Klengkeng", price:"Rp.3.540"},
       ],
-      nutrition:{karbohidrat:"80.76 g", protein:"19.76 g", lemak:"17.44 g", serat:"3.7 g", energi:"557.8 kkal"}
+      nutrition:{karbohidrat:"79.50 g", protein:"20.62 g", lemak:"23.90 g", serat:"1.88 g", energi:"615.5 kkal"}
     },
     kecil: {
       photo: "foto-porsi-kecil.jpg",
       items: [
         {name:"Nasi Putih", price:"Rp.644"},
-        {name:"Telur Ceplok Asam Manis", price:"Rp.2.880"},
-        {name:"Tempe Goreng", price:"Rp.810"},
-        {name:"Tumis Kol Wortel", price:"Rp.990"},
-        {name:"Apel Hijau", price:"Rp.3.350"},
+        {name:"Ayam Bakar Madu", price:"Rp.3.925"},
+        {name:"Tahu Crispy", price:"Rp.920"},
+        {name:"Tumis Sawi Jagung Pipil", price:"Rp.920"},
+        {name:"Klengkeng", price:"Rp.2.950"},
       ],
-      nutrition:{karbohidrat:"60.18 g", protein:"17.52 g", lemak:"16.71 g", serat:"3.46 g", energi:"456.9 kkal"}
+      nutrition:{karbohidrat:"54.04 g", protein:"16.93 g", lemak:"19.52 g", serat:"1.44 g", energi:"458 kkal"}
     }
   },
   totalPorsi: "2.998 Porsi",
