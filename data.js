@@ -6,33 +6,33 @@
 // ============================================================
 const data = {
   unit: "SPPG Ciparay Dua — Majalengka",
-  date: "Selasa, 20 Oktober 2026",
-  menuTitleHTML: "<span>Chiken Nugget</span>",
+  date: "Rabu, 21 Oktober 2026",
+  menuTitleHTML: "<span>Crispy Chiken Steak BBQ</span>",
   portions: {
     besar: {
       photo: "foto-porsi-besar.jpg",
       items: [
         {name:"Nasi Putih", price:"Rp.950"},
-        {name:"Chiken Nugget", price:"Rp.4.120"},
-        {name:"Tahu Goreng", price:"Rp.800"},
-        {name:"Tumis Buncis Jagung Pipil", price:"Rp.1.625"},
-        {name:"Pisang Cavendish", price:"Rp.2.500"},
+        {name:"Crispy Chiken Steak BBQ", price:"Rp.4.560"},
+        {name:"Tempe Goreng", price:"Rp.820"},
+        {name:"Tumis Labu Siam", price:"Rp.1.435"},
+        {name:"Klengkeng", price:"Rp.3.540"},
       ],
-      nutrition:{karbohidrat:"93.57 g", protein:"19.5 g", lemak:"20.16 g", serat:"3.16 g", energi:"629.2 kkal"}
+      nutrition:{karbohidrat:"79.42 g", protein:"21.97 g", lemak:"24.15 g", serat:"3.80 g", energi:"620.8 kkal"}
     },
     kecil: {
       photo: "foto-porsi-kecil.jpg",
       items: [
         {name:"Nasi Putih", price:"Rp.644"},
-        {name:"Chiken Nugget", price:"Rp.3.950"},
-        {name:"Tahu Goreng", price:"Rp.800"},
-        {name:"Tumis Buncis Jagung Pipil", price:"Rp.1.150"},
-        {name:"Pisang Cavendish", price:"Rp.2.500"},
+        {name:"Crispy Chiken Steak BBQ", price:"Rp.3.950"},
+        {name:"Tempe Goreng", price:"Rp.820"},
+        {name:"Tumis Labu Siam", price:"Rp.1.320"},
+        {name:"Klengkeng", price:"Rp.2.950"},
       ],
-      nutrition:{karbohidrat:"66.88 g", protein:"16.43 g", lemak:"18.43 g", serat:"2.44 g", energi:"494.1 kkal"}
+      nutrition:{karbohidrat:"56.82 g", protein:"20.29 g", lemak:"22.98 g", serat:"3.21 g", energi:"511.0 kkal"}
     }
   },
-  totalPorsi: "2.998 Porsi",
+  totalPorsi: "3.000 Porsi",
   recipients: [
       "TPQ Al-Karim",
       "RA Sabilul Chalim",
