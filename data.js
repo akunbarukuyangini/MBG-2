@@ -6,30 +6,30 @@
 // ============================================================
 const data = {
   unit: "SPPG Ciparay Dua — Majalengka",
-  date: "Rabu, 21 Oktober 2026",
-  menuTitleHTML: "<span>Crispy Chiken Steak BBQ</span>",
+  date: "Kamis, 22 Oktober 2026",
+  menuTitleHTML: "<span>Telur Asam Manis</span>",
   portions: {
     besar: {
       photo: "foto-porsi-besar.jpg",
       items: [
         {name:"Nasi Putih", price:"Rp.950"},
-        {name:"Crispy Chiken Steak BBQ", price:"Rp.4.560"},
-        {name:"Tempe Goreng", price:"Rp.820"},
-        {name:"Tumis Labu Siam", price:"Rp.1.435"},
-        {name:"Klengkeng", price:"Rp.3.540"},
+        {name:"Telur Asam Manis", price:"Rp.2.885"},
+        {name:"Tahu Goreng", price:"Rp.800"},
+        {name:"Tumis Labu Siam", price:"Rp.1.320"},
+        {name:"Apel", price:"Rp.3.450"},
       ],
-      nutrition:{karbohidrat:"79.42 g", protein:"21.97 g", lemak:"24.15 g", serat:"3.80 g", energi:"620.8 kkal"}
+      nutrition:{karbohidrat:"81.28 g", protein:"18.34 g", lemak:"17.08 g", serat:"5.81 g", energi:"551.2 kkal"}
     },
     kecil: {
       photo: "foto-porsi-kecil.jpg",
       items: [
         {name:"Nasi Putih", price:"Rp.644"},
-        {name:"Crispy Chiken Steak BBQ", price:"Rp.3.950"},
-        {name:"Tempe Goreng", price:"Rp.820"},
-        {name:"Tumis Labu Siam", price:"Rp.1.320"},
-        {name:"Klengkeng", price:"Rp.2.950"},
+        {name:"Telur Asam Manis", price:"Rp.2.885"},
+        {name:"Tahu Goreng", price:"Rp.800"},
+        {name:"Tumis Labu Siam", price:"Rp.920"},
+        {name:"Apel", price:"Rp.3.450"},
       ],
-      nutrition:{karbohidrat:"56.82 g", protein:"20.29 g", lemak:"22.98 g", serat:"3.21 g", energi:"511.0 kkal"}
+      nutrition:{karbohidrat:"59.34 g", protein:"14.98 g", lemak:"15.79 g", serat:"5.24 g", energi:"436.5 kkal"}
     }
   },
   totalPorsi: "3.000 Porsi",
