@@ -6,30 +6,30 @@
 // ============================================================
 const data = {
   unit: "SPPG Ciparay Dua — Majalengka",
-  date: "Kamis, 22 Oktober 2026",
-  menuTitleHTML: "<span>Telur Asam Manis</span>",
+  date: "Jumat, 23 Oktober 2026",
+  menuTitleHTML: "<span>Ikan Nila goreng</span>",
   portions: {
     besar: {
       photo: "foto-porsi-besar.jpg",
       items: [
         {name:"Nasi Putih", price:"Rp.950"},
-        {name:"Telur Asam Manis", price:"Rp.2.885"},
-        {name:"Tahu Goreng", price:"Rp.800"},
-        {name:"Tumis Labu Siam", price:"Rp.1.320"},
-        {name:"Apel", price:"Rp.3.450"},
+        {name:"Ikan Nila Goreng", price:"Rp.4.150"},
+        {name:"Tempe Goreng", price:"Rp.820"},
+        {name:"Timun Wortel Bumbu Kuning", price:"Rp.1.200"},
+        {name:"Jeruk", price:"Rp.2.500"},
       ],
-      nutrition:{karbohidrat:"81.28 g", protein:"18.34 g", lemak:"17.08 g", serat:"5.81 g", energi:"551.2 kkal"}
+      nutrition:{karbohidrat:"75.13 g", protein:"31.33 g", lemak:"11.74 g", serat:"1.99 g", energi:"534.6 kkal"}
     },
     kecil: {
       photo: "foto-porsi-kecil.jpg",
       items: [
         {name:"Nasi Putih", price:"Rp.644"},
-        {name:"Telur Asam Manis", price:"Rp.2.885"},
-        {name:"Tahu Goreng", price:"Rp.800"},
-        {name:"Tumis Labu Siam", price:"Rp.920"},
-        {name:"Apel", price:"Rp.3.450"},
+        {name:"Ikan Nila Goreng", price:"Rp.4.150"},
+        {name:"Tempe Goreng", price:"Rp.820"},
+        {name:"Timun Wortel Bumbu Kuning", price:"Rp.950"},
+        {name:"Jeruk", price:"Rp.2.500"},
       ],
-      nutrition:{karbohidrat:"59.34 g", protein:"14.98 g", lemak:"15.79 g", serat:"5.24 g", energi:"436.5 kkal"}
+      nutrition:{karbohidrat:"54.73 g", protein:"26.95 g", lemak:"11.4 g", serat:"1.84 g", energi:"428.8 kkal"}
     }
   },
   totalPorsi: "3.000 Porsi",
