@@ -6,33 +6,33 @@
 // ============================================================
 const data = {
   unit: "SPPG Ciparay Dua — Majalengka",
-  date: "Jumat, 23 Oktober 2026",
-  menuTitleHTML: "<span>Ikan Nila goreng</span>",
+  date: "Senin, 26 Oktober 2026",
+  menuTitleHTML: "<span>Telur Balado</span>",
   portions: {
     besar: {
       photo: "foto-porsi-besar.jpg",
       items: [
         {name:"Nasi Putih", price:"Rp.950"},
-        {name:"Ikan Nila Goreng", price:"Rp.4.150"},
-        {name:"Tempe Goreng", price:"Rp.820"},
-        {name:"Timun Wortel Bumbu Kuning", price:"Rp.1.200"},
-        {name:"Jeruk", price:"Rp.2.500"},
+        {name:"Telur Balado", price:"Rp.2.889"},
+        {name:"Tahu Crispy", price:"Rp.920"},
+        {name:"Tumis Baby Corn Wortel", price:"Rp.1.365"},
+        {name:"Anggur", price:"Rp.3.120"},
       ],
-      nutrition:{karbohidrat:"75.13 g", protein:"31.33 g", lemak:"11.74 g", serat:"1.99 g", energi:"534.6 kkal"}
+      nutrition:{karbohidrat:"71.54 g", protein:"16.37 g", lemak:"18.65 g", serat:"1.93 g", energi:"524.2 kkal"}
     },
     kecil: {
       photo: "foto-porsi-kecil.jpg",
       items: [
         {name:"Nasi Putih", price:"Rp.644"},
-        {name:"Ikan Nila Goreng", price:"Rp.4.150"},
-        {name:"Tempe Goreng", price:"Rp.820"},
-        {name:"Timun Wortel Bumbu Kuning", price:"Rp.950"},
-        {name:"Jeruk", price:"Rp.2.500"},
+        {name:"Telur Balado", price:"Rp.2.889"},
+        {name:"Tahu Crispy", price:"Rp.920"},
+        {name:"Tumis Baby Corn Wortel", price:"Rp.935"},
+        {name:"Anggur", price:"Rp.2.850"},
       ],
-      nutrition:{karbohidrat:"54.73 g", protein:"26.95 g", lemak:"11.4 g", serat:"1.84 g", energi:"428.8 kkal"}
+      nutrition:{karbohidrat:"49.45 g", protein:"14.05 g", lemak:"17.86 g", serat:"1.49 g", energi:"416.9 kkal"}
     }
   },
-  totalPorsi: "3.000 Porsi",
+  totalPorsi: "2.961 Porsi",
   recipients: [
       "TPQ Al-Karim",
       "RA Sabilul Chalim",
