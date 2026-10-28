@@ -6,30 +6,30 @@
 // ============================================================
 const data = {
   unit: "SPPG Ciparay Dua — Majalengka",
-  date: "Selasa, 28 Oktober 2026",
-  menuTitleHTML: "<span>Chiken Karage</span>",
+  date: "Kamis, 29 Oktober 2026",
+  menuTitleHTML: "<span>Chiken Katsu</span>",
   portions: {
     besar: {
       photo: "foto-porsi-besar.jpg",
       items: [
         {name:"Nasi Putih", price:"Rp.950"},
-        {name:"Chiken Karage", price:"Rp.4.250"},
-        {name:"Scramble Tahu", price:"Rp.820"},
-        {name:"Tumis pakcoy + Jagung", price:"Rp.1.320"},
-        {name:"Jeruk", price:"Rp.2.500"},
+        {name:"Chiken Katsu", price:"Rp.3.960"},
+        {name:"Tahu Goreng", price:"Rp.800"},
+        {name:"Mix Vegetables", price:"Rp.1.250"},
+        {name:"Klengkeng", price:"Rp.3.150"},
       ],
-      nutrition:{karbohidrat:"76.42 g", protein:"24.43 g", lemak:"26.97 g", serat:"1.57 g", energi:"644.0 kkal"}
+      nutrition:{karbohidrat:"77.81 g", protein:"22.97 g", lemak:"25.38 g", serat:"1.62 g", energi:"628.4 kkal"}
     },
     kecil: {
       photo: "foto-porsi-kecil.jpg",
       items: [
         {name:"Nasi Putih", price:"Rp.644"},
-        {name:"Chiken Karage", price:"Rp.3.950"},
-        {name:"Scramble Tahu", price:"Rp.820"},
-        {name:"Tumis pakcoy + Jagung", price:"Rp.990"},
-        {name:"Jeruk", price:"Rp.2.500"},
+        {name:"Chiken Katsu", price:"Rp.3.100"},
+        {name:"Tahu Goreng", price:"Rp.800"},
+        {name:"Mix Vegetables", price:"Rp.920"},
+        {name:"Klengkeng", price:"Rp.2.995"},
       ],
-      nutrition:{karbohidrat:"56.24 g", protein:"18.13 g", lemak:"21.34 g", serat:"1.46 g", energi:"485.5 kkal"}
+      nutrition:{karbohidrat:"55.86 g", protein:"18.33 g", lemak:"22.23 g", serat:"1.32 g", energi:"492.5 kkal"}
     }
   },
   totalPorsi: "2.473 Porsi",
