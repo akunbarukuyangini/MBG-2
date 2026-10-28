@@ -6,33 +6,33 @@
 // ============================================================
 const data = {
   unit: "SPPG Ciparay Dua — Majalengka",
-  date: "Selasa, 27 Oktober 2026",
-  menuTitleHTML: "<span>Ayam Kemangi</span>",
+  date: "Selasa, 28 Oktober 2026",
+  menuTitleHTML: "<span>Chiken Karage</span>",
   portions: {
     besar: {
       photo: "foto-porsi-besar.jpg",
       items: [
         {name:"Nasi Putih", price:"Rp.950"},
-        {name:"Ayam Kemangi", price:"Rp.4.220"},
-        {name:"Tempe Goreng", price:"Rp.800"},
-        {name:"Tumis Buncis Wortel", price:"Rp.1.625"},
-        {name:"Pisang Cavendish", price:"Rp.2.500"},
+        {name:"Chiken Karage", price:"Rp.4.250"},
+        {name:"Scramble Tahu", price:"Rp.820"},
+        {name:"Tumis pakcoy + Jagung", price:"Rp.1.320"},
+        {name:"Jeruk", price:"Rp.2.500"},
       ],
-      nutrition:{karbohidrat:"86.01 g", protein:"23.66 g", lemak:"25.12 g", serat:"3.06 g", energi:"661.9 kkal"}
+      nutrition:{karbohidrat:"76.42 g", protein:"24.43 g", lemak:"26.97 g", serat:"1.57 g", energi:"644.0 kkal"}
     },
     kecil: {
       photo: "foto-porsi-kecil.jpg",
       items: [
         {name:"Nasi Putih", price:"Rp.644"},
-        {name:"Ayam Kemangi", price:"Rp.3.950"},
-        {name:"Tempe Goreng", price:"Rp.800"},
-        {name:"Tumis Buncis Wortel", price:"Rp.1.150"},
-        {name:"Pisang Cavendish", price:"Rp.2.500"},
+        {name:"Chiken Karage", price:"Rp.3.950"},
+        {name:"Scramble Tahu", price:"Rp.820"},
+        {name:"Tumis pakcoy + Jagung", price:"Rp.990"},
+        {name:"Jeruk", price:"Rp.2.500"},
       ],
-      nutrition:{karbohidrat:"62.06 g", protein:"20.38 g", lemak:"22.93 g", serat:"2.52 g", energi:"553.1 kkal"}
+      nutrition:{karbohidrat:"56.24 g", protein:"18.13 g", lemak:"21.34 g", serat:"1.46 g", energi:"485.5 kkal"}
     }
   },
-  totalPorsi: "2.961 Porsi",
+  totalPorsi: "2.473 Porsi",
   recipients: [
       "TPQ Al-Karim",
       "RA Sabilul Chalim",
