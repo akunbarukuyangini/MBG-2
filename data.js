@@ -6,33 +6,33 @@
 // ============================================================
 const data = {
   unit: "SPPG Ciparay Dua — Majalengka",
-  date: "Kamis, 29 Oktober 2026",
-  menuTitleHTML: "<span>Chiken Katsu</span>",
+  date: "Jumat, 30 Oktober 2026",
+  menuTitleHTML: "<span>Semur Telor</span>",
   portions: {
     besar: {
       photo: "foto-porsi-besar.jpg",
       items: [
         {name:"Nasi Putih", price:"Rp.950"},
-        {name:"Chiken Katsu", price:"Rp.3.960"},
-        {name:"Tahu Goreng", price:"Rp.800"},
-        {name:"Mix Vegetables", price:"Rp.1.250"},
-        {name:"Klengkeng", price:"Rp.3.150"},
+        {name:"Semur Telor", price:"Rp.2.990"},
+        {name:"Tempe Mendoan", price:"Rp.920"},
+        {name:"Timun Labu Siam", price:"Rp.1.350"},
+        {name:"Apel", price:"Rp.3.120"},
       ],
-      nutrition:{karbohidrat:"77.81 g", protein:"22.97 g", lemak:"25.38 g", serat:"1.62 g", energi:"628.4 kkal"}
+      nutrition:{karbohidrat:"88.18 g", protein:"18.50 g", lemak:"16.97 g", serat:"6.17 g", energi:"578.5 kkal"}
     },
     kecil: {
       photo: "foto-porsi-kecil.jpg",
       items: [
         {name:"Nasi Putih", price:"Rp.644"},
-        {name:"Chiken Katsu", price:"Rp.3.100"},
-        {name:"Tahu Goreng", price:"Rp.800"},
-        {name:"Mix Vegetables", price:"Rp.920"},
-        {name:"Klengkeng", price:"Rp.2.995"},
+        {name:"Semur Telor", price:"Rp.2.990"},
+        {name:"Tempe Mendoan", price:"Rp.920"},
+        {name:"Timun Labu Siam", price:"Rp.950"},
+        {name:"Apel", price:"Rp.3.120"},
       ],
-      nutrition:{karbohidrat:"55.86 g", protein:"18.33 g", lemak:"22.23 g", serat:"1.32 g", energi:"492.5 kkal"}
+      nutrition:{karbohidrat:"65.10 g", protein:"16.17 g", lemak:"16.12 g", serat:"5.05 g", energi:"466.8 kkal"}
     }
   },
-  totalPorsi: "2.473 Porsi",
+  totalPorsi: "3.007 Porsi",
   recipients: [
       "TPQ Al-Karim",
       "RA Sabilul Chalim",
