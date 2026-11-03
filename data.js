@@ -6,33 +6,33 @@
 // ============================================================
 const data = {
   unit: "SPPG Ciparay Dua — Majalengka",
-  date: "Jumat, 30 Oktober 2026",
-  menuTitleHTML: "<span>Semur Telor</span>",
+  date: "Rabu, 4 November 2026",
+  menuTitleHTML: "<span>Telur Fuyunghai</span>",
   portions: {
     besar: {
       photo: "foto-porsi-besar.jpg",
       items: [
         {name:"Nasi Putih", price:"Rp.950"},
-        {name:"Semur Telor", price:"Rp.2.990"},
-        {name:"Tempe Mendoan", price:"Rp.920"},
-        {name:"Timun Labu Siam", price:"Rp.1.350"},
-        {name:"Apel", price:"Rp.3.120"},
+        {name:"Telur Fuyunghai", price:"Rp.2.920"},
+        {name:"Tempe Goreng", price:"Rp.800"},
+        {name:"Tumis Wortel Baby Corn", price:"Rp.1.340"},
+        {name:"Apel", price:"Rp.3.300"},
       ],
-      nutrition:{karbohidrat:"88.18 g", protein:"18.50 g", lemak:"16.97 g", serat:"6.17 g", energi:"578.5 kkal"}
+      nutrition:{karbohidrat:" g", protein:" g", lemak:" g", serat:" g", energi:" kkal"}
     },
     kecil: {
       photo: "foto-porsi-kecil.jpg",
       items: [
         {name:"Nasi Putih", price:"Rp.644"},
-        {name:"Semur Telor", price:"Rp.2.990"},
-        {name:"Tempe Mendoan", price:"Rp.920"},
-        {name:"Timun Labu Siam", price:"Rp.950"},
-        {name:"Apel", price:"Rp.3.120"},
+        {name:"Telur Fuyunghai", price:"Rp.2.920"},
+        {name:"Tempe Goreng", price:"Rp.800"},
+        {name:"Tumis Wortel Baby Corn", price:"Rp.940"},
+        {name:"Apel", price:"Rp.3.300"},
       ],
-      nutrition:{karbohidrat:"65.10 g", protein:"16.17 g", lemak:"16.12 g", serat:"5.05 g", energi:"466.8 kkal"}
+      nutrition:{karbohidrat:" g", protein:" g", lemak:" g", serat:" g", energi:" kkal"}
     }
   },
-  totalPorsi: "3.007 Porsi",
+  totalPorsi: "3.008 Porsi",
   recipients: [
       "TPQ Al-Karim",
       "RA Sabilul Chalim",
