@@ -18,7 +18,7 @@ const data = {
         {name:"Tumis Wortel Baby Corn", price:"Rp.1.340"},
         {name:"Apel", price:"Rp.3.300"},
       ],
-      nutrition:{karbohidrat:" g", protein:" g", lemak:" g", serat:" g", energi:" kkal"}
+      nutrition:{karbohidrat:"83.31 g", protein:"20.05 g", lemak:"18.51 g", serat:"4.08 g", energi:"567.7 kkal"}
     },
     kecil: {
       photo: "foto-porsi-kecil.jpg",
@@ -29,10 +29,10 @@ const data = {
         {name:"Tumis Wortel Baby Corn", price:"Rp.940"},
         {name:"Apel", price:"Rp.3.300"},
       ],
-      nutrition:{karbohidrat:" g", protein:" g", lemak:" g", serat:" g", energi:" kkal"}
+      nutrition:{karbohidrat:"59.61 g", protein:"17.77 g", lemak:"17.68 g", serat:"3.36 g", energi:"463.8 kkal"}
     }
   },
-  totalPorsi: "3.008 Porsi",
+  totalPorsi: "2.964 Porsi",
   recipients: [
       "TPQ Al-Karim",
       "RA Sabilul Chalim",
