@@ -6,30 +6,30 @@
 // ============================================================
 const data = {
   unit: "SPPG Ciparay Dua — Majalengka",
-  date: "Rabu, 4 November 2026",
-  menuTitleHTML: "<span>Telur Fuyunghai</span>",
+  date: "Kamis, 5 November 2026",
+  menuTitleHTML: "<span>Ikan Nila Goreng</span>",
   portions: {
     besar: {
       photo: "foto-porsi-besar.jpg",
       items: [
         {name:"Nasi Putih", price:"Rp.950"},
-        {name:"Telur Fuyunghai", price:"Rp.2.920"},
-        {name:"Tempe Goreng", price:"Rp.800"},
-        {name:"Tumis Wortel Baby Corn", price:"Rp.1.340"},
-        {name:"Apel", price:"Rp.3.300"},
+        {name:"Ikan Nila Goreng", price:"Rp.4.450"},
+        {name:"Tahu Bumbu Kecap", price:"Rp.780"},
+        {name:"Tumis Sawi Jagung", price:"Rp.1.325"},
+        {name:"Klengkeng", price:"Rp.3.250"},
       ],
-      nutrition:{karbohidrat:"83.31 g", protein:"20.05 g", lemak:"18.51 g", serat:"4.08 g", energi:"567.7 kkal"}
+      nutrition:{karbohidrat:"72.88 g", protein:"31.39 g", lemak:"14.57 g", serat:"1.69 g", energi:"550.8 kkal"}
     },
     kecil: {
       photo: "foto-porsi-kecil.jpg",
       items: [
         {name:"Nasi Putih", price:"Rp.644"},
-        {name:"Telur Fuyunghai", price:"Rp.2.920"},
-        {name:"Tempe Goreng", price:"Rp.800"},
-        {name:"Tumis Wortel Baby Corn", price:"Rp.940"},
-        {name:"Apel", price:"Rp.3.300"},
+        {name:"Ikan Nila Goreng", price:"Rp.4.120"},
+        {name:"Tahu Bumbu Kecap", price:"Rp.780"},
+        {name:"Tumis Sawi Jagung", price:"Rp.960"},
+        {name:"Klengkeng", price:"Rp.2.880"},
       ],
-      nutrition:{karbohidrat:"59.61 g", protein:"17.77 g", lemak:"17.68 g", serat:"3.36 g", energi:"463.8 kkal"}
+      nutrition:{karbohidrat:"48.69 g", protein:"24.02 g", lemak:"13.41 g", serat:"1.22 g", energi:"412.7 kkal"}
     }
   },
   totalPorsi: "2.964 Porsi",
