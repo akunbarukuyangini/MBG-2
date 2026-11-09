@@ -12,22 +12,22 @@ const data = {
     besar: {
       photo: "foto-porsi-besar.jpg",
       items: [
-        {name:"Nasi Putih", price:""},
-        {name:"Chiken Popcorn Asam Manis", price:""},
-        {name:"Tahu Goreng", price:""},
-        {name:"Buncis Garlic", price:""},
-        {name:"Lengkeng", price:""},
+        {name:"Nasi Putih", price:"Rp.950"},
+        {name:"Chiken Popcorn Asam Manis", price:"Rp.4.120"},
+        {name:"Tahu Goreng", price:"Rp.790"},
+        {name:"Buncis Garlic", price:"Rp.1.235"},
+        {name:"Lengkeng", price:"Rp.3.345"},
       ],
       nutrition:{karbohidrat:"78.08 g", protein:"23.13 g", lemak:"26.04 g", serat:"2.04 g", energi:"634.7 kkal"}
     },
     kecil: {
       photo: "foto-porsi-kecil.jpg",
       items: [
-        {name:"Nasi Putih", price:""},
-        {name:"Chiken Popcorn Asam Manis", price:""},
-        {name:"Tahu Goreng", price:""},
-        {name:"Buncis Garlic", price:""},
-        {name:"Lengkeng", price:""},
+        {name:"Nasi Putih", price:"Rp.644"},
+        {name:"Chiken Popcorn Asam Manis", price:"Rp.3.420"},
+        {name:"Tahu Goreng", price:"Rp.790"},
+        {name:"Buncis Garlic", price:"Rp.989"},
+        {name:"Lengkeng", price:"Rp.2.980"},
       ],
       nutrition:{karbohidrat:"54.26 g", protein:"18.28 g", lemak:"21.88 g", serat:"1.50 g", energi:"482.3 kkal"}
     }
