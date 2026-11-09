@@ -6,33 +6,33 @@
 // ============================================================
 const data = {
   unit: "SPPG Ciparay Dua — Majalengka",
-  date: "Kamis, 5 November 2026",
-  menuTitleHTML: "<span>Ikan Nila Goreng</span>",
+  date: "Senin, 9 November 2026",
+  menuTitleHTML: "<span>Chiken Popcorn Asam Manis</span>",
   portions: {
     besar: {
       photo: "foto-porsi-besar.jpg",
       items: [
-        {name:"Nasi Putih", price:"Rp.950"},
-        {name:"Ikan Nila Goreng", price:"Rp.4.450"},
-        {name:"Tahu Bumbu Kecap", price:"Rp.780"},
-        {name:"Tumis Sawi Jagung", price:"Rp.1.325"},
-        {name:"Klengkeng", price:"Rp.3.250"},
+        {name:"Nasi Putih", price:""},
+        {name:"Chiken Popcorn Asam Manis", price:""},
+        {name:"Tahu Goreng", price:""},
+        {name:"Buncis Garlic", price:""},
+        {name:"Lengkeng", price:""},
       ],
-      nutrition:{karbohidrat:"72.88 g", protein:"31.39 g", lemak:"14.57 g", serat:"1.69 g", energi:"550.8 kkal"}
+      nutrition:{karbohidrat:"78.08 g", protein:"23.13 g", lemak:"26.04 g", serat:"2.04 g", energi:"634.7 kkal"}
     },
     kecil: {
       photo: "foto-porsi-kecil.jpg",
       items: [
-        {name:"Nasi Putih", price:"Rp.644"},
-        {name:"Ikan Nila Goreng", price:"Rp.4.120"},
-        {name:"Tahu Bumbu Kecap", price:"Rp.780"},
-        {name:"Tumis Sawi Jagung", price:"Rp.960"},
-        {name:"Klengkeng", price:"Rp.2.880"},
+        {name:"Nasi Putih", price:""},
+        {name:"Chiken Popcorn Asam Manis", price:""},
+        {name:"Tahu Goreng", price:""},
+        {name:"Buncis Garlic", price:""},
+        {name:"Lengkeng", price:""},
       ],
-      nutrition:{karbohidrat:"48.69 g", protein:"24.02 g", lemak:"13.41 g", serat:"1.22 g", energi:"412.7 kkal"}
+      nutrition:{karbohidrat:"54.26 g", protein:"18.28 g", lemak:"21.88 g", serat:"1.50 g", energi:"482.3 kkal"}
     }
   },
-  totalPorsi: "2.964 Porsi",
+  totalPorsi: "3.002 Porsi",
   recipients: [
       "TPQ Al-Karim",
       "RA Sabilul Chalim",
