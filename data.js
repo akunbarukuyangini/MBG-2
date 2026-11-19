@@ -6,30 +6,30 @@
 // ============================================================
 const data = {
   unit: "SPPG Ciparay Dua — Majalengka",
-  date: "Rabu, 18 November 2026",
-  menuTitleHTML: "<span>Ayam Kentucky</span>",
+  date: "Kamis, 19 November 2026",
+  menuTitleHTML: "<span>Bistik Sapi</span>",
   portions: {
     besar: {
       photo: "foto-porsi-besar.jpg",
       items: [
         {name:"Nasi Putih", price:"Rp.950"},
-        {name:"Ayam Kentucky", price:"Rp.4.050"},
-        {name:"Tempe Goreng", price:"Rp.810"},
-        {name:"Tumis Buncis, Jagung", price:"Rp.1.329"},
-        {name:"Klengkeng", price:"Rp.3.210"},
+        {name:"Bistik Sapi", price:"Rp.4.985"},
+        {name:"Tahu Goreng", price:"Rp.800"},
+        {name:"Tumis Buncis, Baby Corn", price:"Rp.1.312"},
+        {name:"Pisang Cavendish", price:"Rp.2.500"},
       ],
-      nutrition:{karbohidrat:"90.41 g", protein:"26.85 g", lemak:"27.97 g", serat:"2.59 g", energi:"711.7 kkal"}
+      nutrition:{karbohidrat:"82.83 g", protein:"20.27 g", lemak:"18.25 g", serat:"2.92 g", energi:"573.6 kkal"}
     },
     kecil: {
       photo: "foto-porsi-kecil.jpg",
       items: [
         {name:"Nasi Putih", price:"Rp.644"},
-        {name:"Ayam Kentucky", price:"Rp.3.105"},
-        {name:"Tempe Goreng", price:"Rp.810"},
-        {name:"Tumis Buncis, Jagung", price:"Rp.980"},
-        {name:"Klengkeng", price:"Rp.2.540"},
+        {name:"Bistik Sapi", price:"Rp.3.950"},
+        {name:"Tahu Goreng", price:"Rp.800"},
+        {name:"Tumis Buncis, Baby Corn", price:"Rp.980"},
+        {name:"Pisang Cavendish", price:"Rp.2.500"},
       ],
-      nutrition:{karbohidrat:"63.82 g", protein:"21.4 g", lemak:"24.34 g", serat:"1.90 g", energi:"522.8 kkal"}
+      nutrition:{karbohidrat:"59.92 g", protein:"16.41 g", lemak:"14.9 g", serat:"2.41 g", energi:"435.6 kkal"}
     }
   },
   totalPorsi: "2.924 Porsi",
