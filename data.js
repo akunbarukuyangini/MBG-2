@@ -6,33 +6,33 @@
 // ============================================================
 const data = {
   unit: "SPPG Ciparay Dua — Majalengka",
-  date: "Kamis, 19 November 2026",
-  menuTitleHTML: "<span>Bistik Sapi</span>",
+  date: "Jumat, 20 November 2026",
+  menuTitleHTML: "<span>Telur Ceplok Spesial</span>",
   portions: {
     besar: {
       photo: "foto-porsi-besar.jpg",
       items: [
         {name:"Nasi Putih", price:"Rp.950"},
-        {name:"Bistik Sapi", price:"Rp.4.985"},
-        {name:"Tahu Goreng", price:"Rp.800"},
-        {name:"Tumis Buncis, Baby Corn", price:"Rp.1.312"},
-        {name:"Pisang Cavendish", price:"Rp.2.500"},
+        {name:"Telur Ceplok Spesial", price:"Rp.2.990"},
+        {name:"Tempe Orek", price:"Rp.980"},
+        {name:"Capcay", price:"Rp.1.420"},
+        {name:"Anggur", price:"Rp.3.520"},
       ],
-      nutrition:{karbohidrat:"82.83 g", protein:"20.27 g", lemak:"18.25 g", serat:"2.92 g", energi:"573.6 kkal"}
+      nutrition:{karbohidrat:"72.8 g", protein:"23.23 g", lemak:"19.45 g", serat:"2.30 g", energi:"560.1 kkal"}
     },
     kecil: {
       photo: "foto-porsi-kecil.jpg",
       items: [
         {name:"Nasi Putih", price:"Rp.644"},
-        {name:"Bistik Sapi", price:"Rp.3.950"},
-        {name:"Tahu Goreng", price:"Rp.800"},
-        {name:"Tumis Buncis, Baby Corn", price:"Rp.980"},
-        {name:"Pisang Cavendish", price:"Rp.2.500"},
+        {name:"Telur Ceplok Spesial", price:"Rp.2.990"},
+        {name:"Tempe Orek", price:"Rp.980"},
+        {name:"Capcay", price:"Rp.965"},
+        {name:"Anggur", price:"Rp.3.020"},
       ],
-      nutrition:{karbohidrat:"59.92 g", protein:"16.41 g", lemak:"14.9 g", serat:"2.41 g", energi:"435.6 kkal"}
+      nutrition:{karbohidrat:"50.15 g", protein:"18.76 g", lemak:"17.8 g", serat:"1.72 g", energi:"435.7 kkal"}
     }
   },
-  totalPorsi: "2.924 Porsi",
+  totalPorsi: "2 Porsi",
   recipients: [
       "TPQ Al-Karim",
       "RA Sabilul Chalim",
