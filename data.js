@@ -6,33 +6,33 @@
 // ============================================================
 const data = {
   unit: "SPPG Ciparay Dua — Majalengka",
-  date: "Jumat, 20 November 2026",
-  menuTitleHTML: "<span>Telur Ceplok Spesial</span>",
+  date: "Selasa, 24 November 2026",
+  menuTitleHTML: "<span>Ayam Woku Kemangi</span>",
   portions: {
     besar: {
       photo: "foto-porsi-besar.jpg",
       items: [
         {name:"Nasi Putih", price:"Rp.950"},
-        {name:"Telur Ceplok Spesial", price:"Rp.2.990"},
-        {name:"Tempe Orek", price:"Rp.980"},
-        {name:"Capcay", price:"Rp.1.420"},
-        {name:"Anggur", price:"Rp.3.520"},
+        {name:"Ayam Woku Kemangi", price:"Rp.4.250"},
+        {name:"Tempe Goreng", price:"Rp.810"},
+        {name:"Tumis Labu Siam, Jagung", price:"Rp.1.342"},
+        {name:"Klengkeng", price:"Rp.3.210"},
       ],
-      nutrition:{karbohidrat:"72.8 g", protein:"23.23 g", lemak:"19.45 g", serat:"2.30 g", energi:"560.1 kkal"}
+      nutrition:{karbohidrat:"80.30 g", protein:"26.80 g", lemak:"29.80 g", serat:"4.16 g", energi:"692.1 kkal"}
     },
     kecil: {
       photo: "foto-porsi-kecil.jpg",
       items: [
         {name:"Nasi Putih", price:"Rp.644"},
-        {name:"Telur Ceplok Spesial", price:"Rp.2.990"},
-        {name:"Tempe Orek", price:"Rp.980"},
-        {name:"Capcay", price:"Rp.965"},
-        {name:"Anggur", price:"Rp.3.020"},
+        {name:"Ayam Woku Kemangi", price:"Rp.3.510"},
+        {name:"Tempe Goreng", price:"Rp.810"},
+        {name:"Tumis Labu Siam, Jagung", price:"Rp.920"},
+        {name:"Klengkeng", price:"Rp.2.540"},
       ],
-      nutrition:{karbohidrat:"50.15 g", protein:"18.76 g", lemak:"17.8 g", serat:"1.72 g", energi:"435.7 kkal"}
+      nutrition:{karbohidrat:"55.3 g", protein:"20.25 g", lemak:"24.21 g", serat:"3.05 g", energi:"516.5 kkal"}
     }
   },
-  totalPorsi: "2 Porsi",
+  totalPorsi: "2.918 Porsi",
   recipients: [
       "TPQ Al-Karim",
       "RA Sabilul Chalim",
