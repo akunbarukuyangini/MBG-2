@@ -6,33 +6,33 @@
 // ============================================================
 const data = {
   unit: "SPPG Ciparay Dua — Majalengka",
-  date: "Selasa, 24 November 2026",
-  menuTitleHTML: "<span>Ayam Woku Kemangi</span>",
+  date: "Kamis, 26 November 2026",
+  menuTitleHTML: "<span>Telur Ceplok Balado</span>",
   portions: {
     besar: {
       photo: "foto-porsi-besar.jpg",
       items: [
         {name:"Nasi Putih", price:"Rp.950"},
-        {name:"Ayam Woku Kemangi", price:"Rp.4.250"},
-        {name:"Tempe Goreng", price:"Rp.810"},
-        {name:"Tumis Labu Siam, Jagung", price:"Rp.1.342"},
-        {name:"Klengkeng", price:"Rp.3.210"},
+        {name:"Telur Ceplok Balado", price:"Rp.2.980"},
+        {name:"Tempe Mendoan", price:"Rp.920"},
+        {name:"Tumis Buncis, Kol", price:"Rp.1.325"},
+        {name:"Apel", price:"Rp.3.250"},
       ],
-      nutrition:{karbohidrat:"80.30 g", protein:"26.80 g", lemak:"29.80 g", serat:"4.16 g", energi:"692.1 kkal"}
+      nutrition:{karbohidrat:"89.36 g", protein:"18.38 g", lemak:"17.21 g", serat:"4.34 g", energi:"582.4 kkal"}
     },
     kecil: {
       photo: "foto-porsi-kecil.jpg",
       items: [
         {name:"Nasi Putih", price:"Rp.644"},
-        {name:"Ayam Woku Kemangi", price:"Rp.3.510"},
-        {name:"Tempe Goreng", price:"Rp.810"},
-        {name:"Tumis Labu Siam, Jagung", price:"Rp.920"},
-        {name:"Klengkeng", price:"Rp.2.540"},
+        {name:"Telur Ceplok Balado", price:"Rp.2.980"},
+        {name:"Tempe Mendoan", price:"Rp.920"},
+        {name:"Tumis Buncis, Kol", price:"Rp.990"},
+        {name:"Apel", price:"Rp.3.250"},
       ],
-      nutrition:{karbohidrat:"55.3 g", protein:"20.25 g", lemak:"24.21 g", serat:"3.05 g", energi:"516.5 kkal"}
+      nutrition:{karbohidrat:"66.94 g", protein:"16.69 g", lemak:"17 g", serat:"3.89 g", energi:"481.9 kkal"}
     }
   },
-  totalPorsi: "2.918 Porsi",
+  totalPorsi: "2.920 Porsi",
   recipients: [
       "TPQ Al-Karim",
       "RA Sabilul Chalim",
